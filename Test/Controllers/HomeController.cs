@@ -26,11 +26,7 @@ namespace Test.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-<<<<<<< HEAD
-            string commitno = "Commit 5";
-=======
             string commitno = "Commit 3";
->>>>>>> 9a4af55 (Commit 3)
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
